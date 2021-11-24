@@ -8,11 +8,15 @@ header {
   background: #3e3c3c;
   color: #fff;
   display: flex;
-  padding: 15px;
+  padding: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   border: 10px solid green;
+}
+
+.Personal-information {
+  font-size: 15px;
 }
 
 main {
@@ -26,4 +30,35 @@ main {
   font-style: normal;
   font-weight: bold;
   border: 10px solid rgb(0, 45, 128);
+}
+
+.primary-text {
+  font-size: 72px;
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 82px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f55800;
+}
+
+.supporting-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Description-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;    
 }
