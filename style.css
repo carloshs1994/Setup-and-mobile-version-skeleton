@@ -1,0 +1,29 @@
+body {
+  margin: -1px;
+}
+
+header {
+  font-size: 20px;
+  text-align: center;
+  background: #3e3c3c;
+  color: #fff;
+  display: flex;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  border: 10px solid green;
+}
+
+main {
+  font-size: 20px;
+  text-align: center;
+  background: #1c1a19;
+  color: #fff;
+  display: flex;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  border: 10px solid rgb(0, 45, 128);
+}
