@@ -15,3 +15,15 @@ header {
     border: 10px solid green;
 }
 
+main {
+    font-size: 20px;
+    text-align: center;
+    background: #1C1A19;
+    color: #FFFFFF;
+    display: flex;
+    padding: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    border: 10px solid rgb(0, 45, 128);
+}
