@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+}
+
+header {
+    font-size: 20px;
+    text-align: center;
+    background: #3E3C3C;
+    color: #FFFFFF;
+    display: flex;
+    padding: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    border: 10px solid green;
+}
+
