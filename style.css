@@ -1,0 +1,89 @@
+body {
+  margin: -1px;
+}
+
+header {
+  font-size: 20px;
+  text-align: center;
+  background: #3e3c3c;
+  color: #fff;
+  display: flex;
+  padding: 0 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  justify-content: flex-end;
+  height: 72px;
+  align-items: center;
+}
+
+.Name {
+  width: 100%;
+  text-align: left;
+}
+
+.Personal-information {
+  font-size: 15px;
+  width: 10vh;
+}
+
+main {
+  font-size: 20px;
+  text-align: center;
+  background: #1c1a19;
+  color: #fff;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  min-width: 10vh;
+  justify-content: center;
+  width: 20vh;
+  align-items: flex-start;
+}
+
+.icon {
+  padding: 8px;
+  margin-left: 20px;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 566px;
+}
+
+.primary-text {
+  font-size: 72px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 82px;
+  text-align: left;
+  color: #f55800;
+  width: 400px;
+}
+
+.supporting-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+}
+
+.Description-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
