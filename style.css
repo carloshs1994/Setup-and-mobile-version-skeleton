@@ -8,15 +8,23 @@ header {
   background: #3e3c3c;
   color: #fff;
   display: flex;
-  padding: 25px;
+  padding: 0 150px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
-  border: 10px solid green;
+  justify-content: flex-end;
+  height: 72px;
+  align-items: center;
+}
+
+.Name {
+  width: 100%;
+  text-align: left;
 }
 
 .Personal-information {
   font-size: 15px;
+  width: 10vh;
 }
 
 main {
@@ -25,11 +33,31 @@ main {
   background: #1c1a19;
   color: #fff;
   display: flex;
-  padding: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
-  border: 10px solid rgb(0, 45, 128);
+  justify-content: space-between;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  min-width: 10vh;
+  justify-content: center;
+  width: 20vh;
+  align-items: flex-start;
+}
+
+.icon {
+  padding: 8px;
+  margin-left: 20px;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 566px;
 }
 
 .primary-text {
@@ -41,6 +69,7 @@ main {
   letter-spacing: 0em;
   text-align: left;
   color: #f55800;
+  width: 400px;
 }
 
 .supporting-text {
@@ -55,7 +84,6 @@ main {
 
 .Description-text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
