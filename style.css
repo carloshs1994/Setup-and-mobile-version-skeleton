@@ -62,11 +62,10 @@ main {
 
 .primary-text {
   font-size: 72px;
-  font-family: Crete Round;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 82px;
-  letter-spacing: 0em;
   text-align: left;
   color: #f55800;
   width: 400px;
@@ -78,7 +77,6 @@ main {
   font-style: normal;
   font-weight: 500;
   line-height: 44px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
@@ -87,6 +85,5 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  letter-spacing: 0em;
-  text-align: left;    
+  text-align: left;
 }
